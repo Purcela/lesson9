@@ -1,0 +1,23 @@
+ @media ( max-width: 1150px ) { 
+         .box1 { flex-direction: column;
+                 align-items: center; }
+         .mini-box1:nth-child(1) { margin-bottom: 20px; }
+  }
+
+@media ( max-width: 1140px ) { 
+	    .mini-box:nth-child(1),
+        .mini-box:nth-child(2) { width: 350px;
+                                 margin-top: 50px; }
+ }
+
+ @media ( max-width: 705px ) { 
+        .mini-box:nth-child(1),
+        .mini-box:nth-child(2) { width: 150px;
+                                 height: 150px; }
+ }
+
+@media ( max-width:  320px) { 
+	.box1 {display: none;}
+ }
+
+  
